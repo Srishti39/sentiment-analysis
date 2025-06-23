@@ -67,7 +67,7 @@ python -m textblob.download_corpora
 
 ---
 
-## 💻 Running the App
+### 3. 💻 Running the App
 bash
 Copy
 Edit
