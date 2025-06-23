@@ -65,8 +65,6 @@ pip install -r requirements.txt
 # Download NLTK corpora for TextBlob
 python -m textblob.download_corpora
 
----
-
 ### 3. 💻 Running the App
 bash
 Copy
