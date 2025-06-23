@@ -75,4 +75,5 @@ sentiment_analysis
   Copy
   Edit
   python app.py
+  
   Navigate to: http://localhost:5000
