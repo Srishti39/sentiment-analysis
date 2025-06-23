@@ -65,5 +65,21 @@ pip install -r requirements.txt
 # Download NLTK corpora for TextBlob
 python -m textblob.download_corpora
 
+## 📁 Project Structure
 
+sentiment_analysis
 
+1. app.py # Flask backend
+2. templates/index.html # Frontend HTML
+3. static/style.css # Custom styles
+4. script.js # Frontend logic
+5. README.md # Project documentation
+
+---
+
+## 🚀 Getting Started
+
+### 1. ✅ Prerequisites
+
+- Python 3.8 or higher
+- `pip` package manager
