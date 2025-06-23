@@ -40,46 +40,39 @@ sentiment_analysis
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 ### 1. ✅ Prerequisites
 
-- Python 3.8 or higher
+- Python 3.8 or higher  
 - `pip` package manager
 
-### 2. 📦 Installation
+### 2. 📦 Installation & Running the App
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/sentiment-analysis-app.git
-cd sentiment_analysis
+    ```bash
+    # Clone the repository
+    git clone https://github.com/yourusername/sentiment-analysis-app.git
+    cd sentiment_analysis
+    
+    # (Optional) Create and activate a virtual environment
+    python -m venv venv
+    # Windows
+    venv\Scripts\activate
+    # macOS/Linux
+    source venv/bin/activate
+    
+    # Install dependencies
+    pip install -r requirements.txt
+    
+    # Download NLTK corpora for TextBlob
+    python -m textblob.download_corpora
+    
+    # Run the Flask app
+    python app.py
 
-# (Optional) Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate      # Windows
-source venv/bin/activate   # macOS/Linux
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Download NLTK corpora for TextBlob
-python -m textblob.download_corpora
-
-## 📁 Project Structure
-
-sentiment_analysis
-
-1. app.py # Flask backend
-2. templates/index.html # Frontend HTML
-3. static/style.css # Custom styles
-4. script.js # Frontend logic
-5. README.md # Project documentation
-
----
-
-## 🚀 Getting Started
-
-### 1. ✅ Prerequisites
-
-- Python 3.8 or higher
-- `pip` package manager
+## 💻 Running the App
+  bash
+  Copy
+  Edit
+  python app.py
+  Navigate to: http://localhost:5000
