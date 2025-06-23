@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sentiment Analysis Tool</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Sentiment Analysis</h1>
+      <button class="toggle" id="toggleTheme">Dark Mode</button>
+    </div>
+
+    <textarea id="comments" placeholder="Enter one comment per line..."></textarea>
+    <button id="analyze">Analyze Sentiment</button>
+    <div class="loader" id="loader"></div>
+
+    <div id="result"></div>
+    <canvas id="sentimentChart"></canvas>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
