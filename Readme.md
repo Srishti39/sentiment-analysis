@@ -71,9 +71,9 @@ sentiment_analysis
     python app.py
 
 ## 💻 Running the App
-  bash
-  Copy
-  Edit
-  python app.py
+  - bash
+  - Copy
+  - Edit
+  - python app.py
   
   Navigate to: http://localhost:5000
